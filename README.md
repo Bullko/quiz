@@ -1,5 +1,5 @@
 # QUIZ PROJECT
 
-Tento project som postavil pomocou React JS.
-Otázky su prepojené cez API. Je mozne upravit casomieru otazok a score za spravnu odpoved. Score je ulozene do Local Storage.
-Živý náhlaď: https://quiz-ops.netlify.app/
+I built this project using React JS.
+Questions are connected via API. It is possible to adjust the question timer and the score for a correct answer. Score is saved in Local Storage.
+Live Preview: https://quiz-ops.netlify.app/
