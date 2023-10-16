@@ -1,0 +1,13 @@
+.answer-loader-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #9c9c9c;
+}
+.answer-loader-container .progress {
+  height: 5px;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  width: 0;
+}/*# sourceMappingURL=AnswerTimer.css.map */
