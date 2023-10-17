@@ -106,7 +106,8 @@ const Quiz = ({ questions, onQuizFinish, onResetCategory }) => {
       {!showResult ? (
         <>
           {showAnswerTimer && (
-            <AnswerTimer duration={5} onTimeUp={handleTimeUp} />
+            // change duration to set the time for question
+            <AnswerTimer duration={15} onTimeUp={handleTimeUp} />
           )}
           <span className="active-question-no">{currentQuestion + 1}</span>
           <span className="total-question">/{questions.length}</span>

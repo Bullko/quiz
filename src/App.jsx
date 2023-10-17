@@ -71,13 +71,13 @@ function App() {
           {/* Add more buttons for more categories as needed */}
         </>
       )}
-      {questions.length && (
+      {questions.length > 0 ? (
         <Quiz
           questions={questions}
           onQuizFinish={handleQuizFinish}
           onResetCategory={resetCategory}
         />
-      )}
+      ) : null}
     </div>
   );
 }
