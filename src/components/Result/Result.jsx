@@ -1,7 +1,7 @@
 import "./Result.scss";
 import { useState, useEffect } from "react";
 
-const Result = ({ totalQuestions, result, onTryAgain }) => {
+const Result = ({ totalQuestions, result, onTryAgain, onResetCategory }) => {
   const [name, setName] = useState("");
   const [highScores, setHighScores] = useState([]);
   const [showScores, setShowScores] = useState(false);
@@ -28,6 +28,7 @@ const Result = ({ totalQuestions, result, onTryAgain }) => {
     setShowScores(false);
     setHighScores([]);
     onTryAgain();
+    onResetCategory();
   };
 
   return (
